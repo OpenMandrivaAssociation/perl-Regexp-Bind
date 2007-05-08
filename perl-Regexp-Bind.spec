@@ -3,7 +3,7 @@
 Summary:	Regexp::Bind - Bind variables to captured buffers
 Name:		perl-%{real_name}
 Version:	0.05
-Release: %mkrel 2
+Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
@@ -24,6 +24,8 @@ You can view it as a tiny and petite data extraction system.
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
+
+%check
 make test
 
 %install
