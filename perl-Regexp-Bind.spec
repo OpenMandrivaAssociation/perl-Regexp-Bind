@@ -2,14 +2,14 @@
 %define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Regexp::Bind - Bind variables to captured buffers
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Regexp/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Regexp-Bind
+Source0:	https://cpan.metacpan.org/authors/id/X/XE/XERN/Regexp-Bind-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
